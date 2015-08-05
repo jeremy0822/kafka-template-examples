@@ -1,1 +1,2 @@
 # cubeanalyse
+kafka examples
