@@ -5,14 +5,13 @@ import com.cubead.framework.common.ApplicationProperties;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.utils.Utils;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
 import java.util.Map.Entry;
 import java.util.Properties;
 
-@Component
+
 public class MessageProducer implements Runnable {
     private String topic;
     private Properties props;

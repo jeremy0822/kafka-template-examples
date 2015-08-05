@@ -15,7 +15,7 @@ public class MessageQueue {
         try {
             queue.put(msg);
         } catch (InterruptedException e) {
-            System.err.println("put ca log to queue Error: " + e.getMessage());
+            System.err.println("put msg to queue Error: " + e.getMessage());
         }
     }
 }
