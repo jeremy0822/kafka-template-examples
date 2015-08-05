@@ -1,8 +1,7 @@
 # cubeanalyse
 kafka examples
-¿ÉÒÔÓÃÀ´×÷Îª±àĞ´Kafka producerºÍconsumerµÄÄ£°å¡£
-
-Èç¹ûÊÇmvnÏîÄ¿pomÒÀÀµ£º
+å¯ä»¥ç”¨æ¥ä½œä¸ºç¼–å†™Kafka producerå’Œconsumerçš„æ¨¡æ¿ã€‚
+1.å¦‚æœæ˜¯mvné¡¹ç›®pomä¾èµ–ï¼š
 <dependency>
   <groupId>org.apache.kafka</groupId>
   <artifactId>kafka-clients</artifactId>
@@ -14,8 +13,6 @@ kafka examples
   <artifactId>kafka_2.10</artifactId>
   <version>0.8.2.1</version>
 </dependency>
-
-Èç¹ûÊÇsbtÏîÄ¿build.sbtÌí¼Ó
-
+2.å¦‚æœæ˜¯sbté¡¹ç›®build.sbtæ·»åŠ 
 libraryDependencies ++= Seq(
   "org.apache.kafka" %% "kafka" % "0.8.2.1")
